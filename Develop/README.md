@@ -1,6 +1,6 @@
 # 10
 
-  [![Apache License 2.0 license](https://img.shields.io/badge/License-Apache%20License%202.0-blue.svg)](https://choosealicense.com/licenses/apache-2.0)
+  [![Apache License 2.0 license](https://img.shields.io/badge/License-Apache%20License%202.0-red.svg)](https://choosealicense.com/licenses/apache-2.0)
 
   ## Table of Contents
   1. [Project Description](#project-description)
