@@ -4,7 +4,8 @@ function renderLicenseBadge(license) {
   if(!license) {
     return '';
   } else {
-    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    let noSpaces = document.write(encodeURIComponent(license.trim()));
+    return `[![${license} license](https://img.shields.io/badge/License-${noSpaces}-blue.svg)](${renderLicenseLink(license)})`
   }
 }
 
