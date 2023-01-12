@@ -1,9 +1,14 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if(!license) {
+    return '';
+  } else {
+    return `[![${license} license](https://img.shields.io/badge/License-${license}-red.svg)](${renderLicenseLink(license)})`
+  }
+}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// License links
 function renderLicenseLink(license) {
   if (license === 'BSD Zero Clause License') { return 'https://choosealicense.com/licenses/0bsd' }
   if (license === 'Academic Free License v3.0') { return 'https://choosealicense.com/licenses/afl-3.0' }
@@ -52,8 +57,7 @@ function renderLicenseLink(license) {
   if (license === 'zlib License') { return 'https://choosealicense.com/licenses/zlib' }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Text to pupulate below License header
 function renderLicenseSection(license) {
   if (!license) {
     return '';
@@ -62,9 +66,12 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Populates and formats README.md file
 function generateMarkdown(data) {
   return `# ${data.project_title}
+
+  ${renderLicenseBadge(data.license)}
+
   ## Table of Contents
   1. [Project Description](#project-description)
   2. [Installation Instructions](#installation-instructions)
