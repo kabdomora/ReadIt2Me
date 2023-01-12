@@ -2,6 +2,8 @@
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
+const process = require('process');
+const path = require('path');
 
 
 // TODO: Create an array of questions for user input
@@ -38,7 +40,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'licence_s',
+        name: 'licence',
         choices: [
             '[BSD Zero Clause License]',
             '[Academic Free License v3.0]',
@@ -102,7 +104,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data);
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
 // TODO: Create a function to initialize app
