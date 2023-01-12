@@ -1,4 +1,4 @@
-# Read it to me
+# 1
   ## Table of Contents
   1. [Project Description](#project-description)
   2. [Installation Instructions](#installation-instructions)
@@ -9,23 +9,24 @@
   8. [Contact Me](#contact-me)
 
   ## Project Description
-  * what do i do
+  * 2
 
   ## Installation Instructions
-  * how to prepare
+  * 3
 
   ## How To Use
-  * what am i good for
+  * 4
 
   ## How To Contribute
-  * how to help
+  * 5
   
   ## Testing
-  * please don't test me
+  * 6
 
   ## License
-  * licensed under the undefined
+  * Licensed under [BSD 3-Clause Clear License](https://choosealicense.com/licenses/bsd-3-clause-clear)
+  
 
   ## Contact Me
-  * Find me on Github: [gittygitty](http://github.com/gittygitty)
-  * For additional feedback, email me at [email@email.com](mailto:email@email.com)
+  * Find me on Github: [8 ](http://github.com/8 )
+  * For additional feedback, email me at [9](mailto:9)

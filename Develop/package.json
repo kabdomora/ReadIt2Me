@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.2"
+    "inquirer": "^6.5.2",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^19.5.2"
   }
 }
