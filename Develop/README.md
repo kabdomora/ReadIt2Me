@@ -1,6 +1,6 @@
-# 10
+# Read It 2 Me
 
-  [![Apache License 2.0 license](https://img.shields.io/badge/License-Apache%20License%202.0-red.svg)](https://choosealicense.com/licenses/apache-2.0)
+  [![MIT License license](https://img.shields.io/badge/License-MIT%20License-blue.svg)](https://choosealicense.com/licenses/mit)
 
   ## Table of Contents
   1. [Project Description](#project-description)
@@ -12,24 +12,24 @@
   8. [Contact Me](#contact-me)
 
   ## Project Description
-  * 9
+  * This application will auto generate a formatted ReadMe file with table of contents and link to relevant License information.
 
   ## Installation Instructions
-  * 8
+  * To use this application, you must install Node.js v16 locally. Within your terminal, prior to application launch, you must install the inquirer package with the prompt “npm install inquirer”.
 
   ## How To Use
-  * 7
+  * This application serves to streamline the ReadMe file generation process, creating uniform ReadMe files upon user input of project-specific details.
 
   ## How To Contribute
-  * 6
+  * To contribute, you can access the repository via my Github profile. Please, if you wish to contribute, contact me via email in advance. 
   
   ## Testing
-  * 5
+  * Testing is recommended within the terminal. There are no pre-fix tests designed for this application at this time. 
 
   ## License
-  * Licensed under [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0)
+  * Licensed under [MIT License](https://choosealicense.com/licenses/mit)
   
 
   ## Contact Me
-  * Find me on Github: [3](http://github.com/3)
-  * For additional feedback, email me at [2](mailto:2)
+  * Find me on Github: [kabdomora](http://github.com/kabdomora)
+  * For additional feedback, email me at [kaylabrown@mednet.ucla.edu](mailto:kaylabrown@mednet.ucla.edu)

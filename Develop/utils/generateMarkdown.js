@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if(!license) {
     return '';
   } else {
-    let noSpaces = document.write(encodeURIComponent(license.trim()));
+    let noSpaces = license.replace(/\s+/g, '%20');
     return `[![${license} license](https://img.shields.io/badge/License-${noSpaces}-blue.svg)](${renderLicenseLink(license)})`
   }
 }
