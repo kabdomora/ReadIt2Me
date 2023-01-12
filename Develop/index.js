@@ -11,32 +11,32 @@ const questions = [
     {
         type: 'input',
         name: 'project_title',
-        question: 'What is the title of your project?'
+        message: 'What is the title of your project?'
     },
     {
         type: 'input',
         name: 'project_description',
-        question: 'Please provide a brief description of your project.'
+        message: 'Please provide a brief description of your project.'
     },
     {
         type: 'input',
         name: 'installation',
-        question: 'Please provide necessary installation instructions.'
+        message: 'Please provide necessary installation instructions.'
     },
     {
         type: 'input',
         name: 'purpose',
-        question: 'What problem does this resource solve? How should it be used?'
+        message: 'What problem does this resource solve? How should it be used?'
     },
     {
         type: 'input',
         name: 'contribute',
-        question: 'If others can contribute to this project, how should they do so?'
+        message: 'If others can contribute to this project, how should they do so?'
     },
     {
         type: 'input',
         name: 'tests',
-        question: 'Are any tests available?'
+        message: 'Are any tests available?'
     },
     {
         type: 'rawlist',
@@ -88,17 +88,17 @@ const questions = [
             'Do What The F*ck You Want To Public License',
             'zlib License'
         ],
-        question: 'What license do you use, if any?'
+        message: 'What license do you use, if any?'
     },
     {
         type: 'input',
         name: 'github',
-        question: 'What is your GitHub username?'
+        message: 'What is your GitHub username?'
     },
     {
         type: 'input',
         name: 'email',
-        question: 'If users should email you with questions, provide your email.'
+        message: 'If users should email you with questions, provide your email.'
     },
 ]
 
