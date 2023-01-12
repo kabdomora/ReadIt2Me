@@ -40,7 +40,7 @@ const questions = [
     },
     {
         type: 'list',
-        name: 'licence',
+        name: 'license',
         choices: [
             '[BSD Zero Clause License]',
             '[Academic Free License v3.0]',
