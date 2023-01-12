@@ -102,12 +102,12 @@ const questions = [
     },
 ]
 
-// TODO: Create a function to write README file
+// Function to create README file and save to same folder structure location
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// TODO: Create a function to initialize app
+// Function to pass responses through to generateMarkdown app
 function init() {
     inquirer.prompt(questions)
     .then(userResponses => {
