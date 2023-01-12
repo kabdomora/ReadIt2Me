@@ -23,26 +23,26 @@ function generateMarkdown(data) {
       8. [Contact Me](#contact-me)
 
       ## Project Description
-      * ${answers.project_description}
+      * ${data.project_description}
 
       ## Installation Instructions
-      * ${answers.installation}
+      * ${data.installation}
 
       ## How To Use
-      * ${answers.purpose}
+      * ${data.purpose}
 
       ## How To Contribute
-      * ${answers.contribute}
+      * ${data.contribute}
       
       ## Testing
-      * ${answers.tests}
+      * ${data.tests}
 
       ## License
-      * licensed under the ${answers.license}
+      * licensed under the ${data.license}
 
       ## Contact Me
-      * Find me on Github: [${answers.github}](http://github.com/${answers.github})
-      * For additional feedback, email me at [${answers.email}](mailto:${answers.email})
+      * Find me on Github: [${data.github}](http://github.com/${data.github})
+      * For additional feedback, email me at [${data.email}](mailto:${data.email})
 `;
 }
 
